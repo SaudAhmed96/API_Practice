@@ -1,0 +1,19 @@
+.genre{
+    &__list{
+        display:flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        // align-items: space-between;
+        flex-wrap: wrap;
+        height: 20rem;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-size: 1.25rem;
+        background-color: lightblue;
+        border-radius: 4px;
+        width: 8rem;
+        margin: 0.25rem;
+    }
+}
